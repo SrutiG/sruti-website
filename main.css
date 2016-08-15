@@ -1,0 +1,160 @@
+//generic first
+
+html,  body, h1, h2, h3, ul, ul li, p, a {
+    margin:0; padding: 0; border: 0;
+    font-size: 100%;
+    font: inherit;
+
+}
+ul, h1, h2, h3, p {
+    text-align: center;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+h1 {
+    padding: 20px 0 20px 0; /*font-weight: bold;*/
+    font-weight: normal;
+}
+h2 {
+    /*font-weight: bold;*/
+    font-weight: normal;
+}
+h3 {
+    font-weight: normal;
+    margin-top: 10px;
+}
+body {
+    color: #CCCCCC;
+    font-family:  "Gill Sans", "Times New Roman", sans-serif;
+    background-color: #EEEEEE;
+    background-image: url(images/atlantahighway.jpg);
+    /*background-position: center center;*/
+    background-size: contain;
+}
+a:hover {
+    color:red;
+}
+ul .inline {
+   display: inline; padding-right: 10px;
+}
+p {
+    margin: 0 0 25px 0;
+    text-indent: 30px;
+}
+.noin {
+    text-indent: 0;
+}
+label, input, textarea {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+label {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+textarea {
+    width:400px;
+    height:100px;
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom:25px;
+}
+
+.purp {
+    color:#BB88FF;
+}
+.obj {
+   padding: 5px 0px 5px 0; margin: 0; list-style-type: none; 
+}
+.Navigation {
+    background-color: #330066;
+    margin: 0 auto 0 auto;
+    border: 2px solid #DDDDDD;
+
+}
+.Navigation a {
+    color: #BB88FF;
+}
+.Navigation a:hover {
+    color: #DDDDDD;
+}
+.header {
+    margin:30px auto 0 auto;
+    width: 550px;
+    padding: 0;
+    background-color: #330066;
+    border-top: 2px solid #DDDDDD;
+    border-right: 2px solid #DDDDDD;
+    border-left: 2px solid #DDDDDD;
+}
+.Main {
+    width:550px;
+    margin: 0 auto 30px auto;
+    border-right: 2px solid #DDDDDD;
+    border-left: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+    background-color: #330066;
+    padding:0;
+    text-align:center;
+}
+.Main img {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    width: 330px ;
+    height: 250px;
+}
+.Main a {
+    color: #FFFFFF;
+}
+.Main a:hover {
+    color: #DDDDDD;
+}
+.proj {
+    margin: 0;
+    padding:0;
+}
+
+.plist {
+    height:150px;
+    border-top: 2px solid #DDDDDD;
+}
+
+.plist img{
+    float: left;
+    width:110px;
+    height:110px;
+}
+.plist li {
+    list-style-type:none;
+    
+}
+.plist a {
+    font-size: 20px;
+    color: #CCCCCC;
+
+    
+}
+.plist p {
+    float:left;
+    margin: 50px 0 50px 0;
+    color:blue;
+}
+.plist a:hover {
+    color:#FFFFFF;
+}
+.upper {
+    text-transform: uppercase;
+}
+.Main .left {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
