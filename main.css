@@ -1,4 +1,4 @@
-//generic first
+//generic first, 330066
 
 html,  body, h1, h2, h3, ul, ul li, p, a {
     margin:0; padding: 0; border: 0;
@@ -64,28 +64,28 @@ input {
 }
 
 .purp {
-    color:#BB88FF;
+    color:#000000;
 }
 .obj {
    padding: 5px 0px 5px 0; margin: 0; list-style-type: none; 
 }
 .Navigation {
-    background-color: #330066;
+    background-color: #555555;
     margin: 0 auto 0 auto;
     border: 2px solid #DDDDDD;
 
 }
 .Navigation a {
-    color: #BB88FF;
+    color: #FFFFFF;
 }
 .Navigation a:hover {
-    color: #DDDDDD;
+    color: #000000;
 }
 .header {
     margin:30px auto 0 auto;
     width: 550px;
     padding: 0;
-    background-color: #330066;
+    background-color: #555555;
     border-top: 2px solid #DDDDDD;
     border-right: 2px solid #DDDDDD;
     border-left: 2px solid #DDDDDD;
@@ -96,7 +96,7 @@ input {
     border-right: 2px solid #DDDDDD;
     border-left: 2px solid #DDDDDD;
     border-bottom: 2px solid #DDDDDD;
-    background-color: #330066;
+    background-color: #555555;
     padding:0;
     text-align:center;
 }
@@ -111,7 +111,7 @@ input {
     color: #FFFFFF;
 }
 .Main a:hover {
-    color: #DDDDDD;
+    color: #000000;
 }
 .proj {
     margin: 0;
